@@ -1,0 +1,9 @@
+/*la propiedad lenght me va a dar el numero de elemetos recordar que lenght es el tamayo de la lisya
+el metodo includes me dice verdadero falso si esta o no el elemento
+el metodo push me permite agregar un elemento a la lista 
+pop va a remover el ultimo elemento de la lista
+unshift me permite agregar un elemento al inicio de la lista 
+shift remueve el primer elemento de la lista
+splice me permite eliminar elementos de una lista pero con enfoque
+
+*/

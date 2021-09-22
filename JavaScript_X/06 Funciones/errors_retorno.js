@@ -1,0 +1,4 @@
+/*
+La funcion retorno comunmente retorna un valor en ciertos casos no 
+
+*/

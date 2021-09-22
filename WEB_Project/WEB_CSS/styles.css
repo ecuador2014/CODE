@@ -1,0 +1,101 @@
+body{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: violet; /*color: #00ff00*/
+    font-size: 50px; /* me permite tener el tamano completo de las letras */
+    font-weight: 1000; /* me permite determinar el grosor de la linea */
+    background: rgba(0, 0, 0.2, 0.5);
+    border: solid 10px hsl(0, 76%, 60%);
+    opacity: 0.5; /*indica la transparencia del elemento*/
+}
+
+p{
+    color: blue;
+    font-style: italic;
+}
+
+.selector-prueba{                /*selectores de CLASS*/
+    font-size: 40;
+    color: chocolate;
+}
+
+#selectorPrueba{                 /*selectores de ID*/
+    font-size: 80;
+    color: darkblue;
+    border: darkgoldenrod;
+}
+
+.clase-prueba span{
+    color: darkgreen;
+    font-size: 60;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p,                                   /*selectores de grupos*/
+span{
+    text-decoration: underline;
+}
+
+.estilo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.test{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div{
+    background: cadetblue;
+    padding: 10px;
+    border: 10px solid blue;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.span1{
+    background: blue;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.pepe{
+    padding: 20px;
+    display: inline-block;
+    /*border: solid 10px red; es igual a las de abajo */
+    border-style: outset;
+    border-width: 15px;
+    border-color: red;
+    /*
+    border-top-color: red;
+    border-left-color: blue;
+    border-right-color: red;
+    border-bottom-color: yellow;
+    es igual que border-color: ;  */
+}
+
+.iPhone{
+    display: inline-block;
+    padding: 20px;
+    outline: solid 20px red;
+    /*outline-style: solid;
+    outline-width: 20px;
+    outline-color: red;*/
+}
+
+h4{
+    -webkit-transition: all 4s ease;
+    -moz-transition: all 4s ease;
+    -ms-transition: all 4s ease;
+    -o-transition: all 4s ease;
+    transition: all 4s ease; /* para todos los antes navegadores */
+}
+

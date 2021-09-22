@@ -1,0 +1,82 @@
+/*SELECTORES*/
+/*selector Universal*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Selector de etiqueta*/
+h1{
+    background: green;
+    color: white;
+    padding: 10px;
+}
+a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+footer a{
+    color: grey;
+}
+/*Selector de id*/
+#descripcion{
+    border: 5px solid black;
+    padding: 15px;
+}
+
+/*Selector de Clase*/
+.parrafo{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.parrafo1, .parrafo3{
+    background-color: blue;
+    color: cadetblue;
+    padding: 10px;
+}
+.parrafo3{
+    background-color: crimson;
+    color: cyan;
+    padding: 5px;
+}
+/*Selector de Atributo*/
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    padding: 20px;
+}
+#usuario form *{
+    display: block;
+}
+input[type="text"]{ 
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 300px;
+    background: pink;
+}
+input[type="submit"]{
+    background: green;
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+/*Selector hijo*/
+#menu > li > a{
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+
+/*Prioridad*/
+
+#saludo h1{
+    background: red;
+}
+
+h1{
+    background: purple !important;
+}

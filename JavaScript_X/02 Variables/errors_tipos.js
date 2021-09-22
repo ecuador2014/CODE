@@ -1,0 +1,8 @@
+/*
+indefinido cuando tenemos una variable que no declaramos su dato o undefined
+bigInt me permite usar enteros que no son muy grandes 
+symbol garantiza que un valor unico 
+en javascript casi todo es un objeto 
+null es un dato primitivo y estructural realmente es un objeto
+typeof me dice que tipo de dato utilizo
+*/

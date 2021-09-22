@@ -1,0 +1,4 @@
+/*
+callback son funciones que a la vez son argumentos y son llamados por una funcion 
+
+*/

@@ -1,0 +1,4 @@
+/*
+casi no se usa en practica pero te permite correr el codigo una vez antes de 
+ingresar a la interacion 
+*/

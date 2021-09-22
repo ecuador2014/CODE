@@ -1,0 +1,3 @@
+/*
+vamos a vincular una funcion a un objeto en forma de un metodo
+*/

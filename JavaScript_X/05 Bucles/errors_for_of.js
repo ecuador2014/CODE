@@ -1,0 +1,3 @@
+/*
+este bucle te permite ir a una lista sin usar indice 
+*/

@@ -1,0 +1,44 @@
+.contenedor{
+    height: 80px;
+    background: rgb(187, 255, 0);
+    /*position: relative; relacion padre relativo - hijo obsolute*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /*empuja las cajas en la siguiente linea*/
+}
+
+.contenedor div{
+    width: 80px;
+    height: 40px;
+}
+
+
+
+/*#primero{*/
+    /*Flujo del documento*/
+    /*position: static;*/
+    /*position: relative;
+    top: 10px;
+    left: 20px;
+    bottom: 10px;
+    right: 10px; */
+    /*position: absolute; rompe el flujo del documento, tiene una relacion con el body*/
+    /*z-index: 1;*/
+    /*left: 20px;*/
+    /*top: 40px;*/
+    /*position: fixed; esta ubicado con relacion  a la pantalla o relativo ala navegador*/
+    /*left: 20px;*/
+    /*top: 10px;*/
+    /*float: right;*/
+/*}*/
+
+/*#segundo{*/
+    /*float: left;*/
+/*}*/
+
+/*p {*/
+    /*text-align: justify; justifica el texto*/
+   /* clear: both; hace que no floten los objetos*/
+/*}*/

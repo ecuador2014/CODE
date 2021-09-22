@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head> <!--Aqui va toda la informacion que no es visble-->
+    <meta charset="utf-8">
+    <title>WEB HTML </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src=""></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pagina sobre ejemplos">
+    <meta name="application-name" content="aplicacion de HTML">
+    <meta name="msapplication-TileImage" content="/img/foto.jpg">
+    <meta name="theme-color" content="#000000">
+
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="preload" href="/font.woff2" as="font" type="font/woff2">
+
+    <canvas></canvas>
+</head>
+<body> <!--Incluye toda la informacion que es visble en el navegador-->
+    <main>
+        <h1>VAMOS HACER UN TEST DE CODIGO</h1>
+    </main>
+
+    <p title="nota">&copy; <em>Cesar</em>  Palacios Arteaga</p>
+    <!-- no sabia que se puede agregara atributos en HTML y de este nombre que es entidades de caracteres-->
+    <!-- Em es para renderizar es como KURVISA -->
+    
+    <p> <em>Cesar</em>es el mejor porque <b>Dios</b>es mi <strong><i>maestro</i></strong> <strong>MI TODO</strong> 
+    </p>
+
+    <!--EM es para resaltar un texto mientras que I es para colocar negrillas-->
+    <!-- no olvidar que B es para NEGRILLA -->
+    
+    <small>&copy; Todos los derechos reservados</small>
+
+    &coprod;
+    &aacute;
+    &csub;
+    &cap;
+
+    <p>Parrafo <span>nuevo</span> </p>
+    <!--Etiquetas de lineas-->
+
+    <p>Parrafo <p>nuevo</p> </p>
+    <!--Etiquetas de bloque-->
+
+    <p>Cesar Palacios Arteaga&nbsp;es Sotware Engineer&nbsp;gracias a Dios &nbsp; nuestro padre</p>
+    <!--&nbsp; es para dar espacios sin que se rompra las frases-->
+
+    <h1>Hola</h1>
+    <h2>Hola</h2>
+    <h3>hola</h3>
+    <h4>Hello</h4>
+    <h5>hidden</h5>
+    <h6>babylon</h6>
+
+    <!--Las etiquetas de encabezado le dan un significado por cada una de su uso tienen un estilo predefinido-->
+
+    <hr>
+    <!--HR sirve para colocar una linea divisoria-->
+    <!--Listas desordenadas-->
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <!--Lista ordenadas-->
+    <ol>
+        <li>Html</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!--LIstas Anidadas-->
+    <ul>
+        <li>Accion</li>
+            <ul>
+                <li>rocky</li>
+                    <ul>
+                        <li>Rambo 1</li>
+                        <li>Rambo 2</li>
+                        <li>Rambo 3</li>
+                    </ul>
+                <li>rambo</li>
+            </ul>
+            
+        <li>Romantica</li>
+            <ul>
+                <li>un beso</li>
+                <li>Pedro</li>
+            </ul>    
+        <li>musicales</li>
+            <ul>
+                <li>music rock</li>
+                <li>music romantica</li>
+            </ul>    
+    </ul>
+
+    <!--Listas de definicion-->    
+    <dl>
+        <dt>HTML</dt>
+        <dd>CSS es para Estilos</dd>
+        <dd>JAVASCRIPT es para darle movilidad al sitio</dd>
+    </dl>
+
+
+
+    <!--La etiqueta CODE le indica a HTML que ponemos codigo-->
+    <p>Esto es codigo de CSS;
+        <code>{ background: blue; }</code>
+    </p>
+
+    <!--Para colocar < =&lt; > = &gt; llamamos a un par de entidades de caracter-->
+    <p>
+        Llamo a las entidades de caracteres
+        <code> &lt;body&gt; </code>
+    </p>
+
+    <!-- la etiqueta <BR/>para romper linea (break line)es decir punto aprte -->
+    <p>
+        quiero ser
+        Sotware Engineer <br>
+        El proximo years <br>
+        con la ayuda de DIOS <br />
+    </p>
+
+    <!--FORMULARIO-->
+    <input type="range" max="100" min="0" step="10">
+    <br>
+    <input type="password">
+    <br>
+    <input type="search">
+    <br>
+    <input type="phone" placeholder="0989033889">
+    <br>
+    <input type="tel" placeholder="052440606">
+    <br>
+    <input type="date" min="2020-01-01" max="2021-12-31">
+    <br>
+    <input type="file" accept="image/*" multiple>
+    <br>
+    <input type="color">
+    <br>
+    <input type="checkbox" value="el checkbox se escribe" checked>
+
+    <!--FIELDSET-->
+    <fieldset>
+        <legend>Checkboxes</legend>
+        <input id="uno" type="checkbox" value="uno" name="lista">
+        <label for="uno">uno</label>
+        <input id="dos" type="checkbox" value="dos" name="lista">
+        <label for="dos">dos</label>
+        <input id="tres" type="checkbox" value="tres" name="lista">
+        <label for="tres">tres</label>
+    </fieldset>
+
+    <!--Formularios-->
+    <form action="/actio.php" method="POST">
+        <label for="name">Nombre:</label>
+        <input id="name" name="name" value="cesar">
+    <br>
+    <label>
+        Email
+        <input name="email" type="email" required placeholder="cesar.palacios@gmail.com">
+    </label>
+    <button>Iniciar Sesion</button>
+    </form>
+
+    <div>
+        <label for="description">Descripcion:</label>
+        <textarea name="" id="description" cols="30" rows="10"></textarea>
+    </div>
+
+    <fieldset> <!--Victor robles-->
+    <div>
+        email
+        <input type="email">
+    </div>
+
+    <div>
+        Password
+        <input type="password">
+    </div>
+
+    <div>
+        Radio:
+        <input type="radio" name="genero" id="hombre" value="hombre">
+        <label for="hombre">Hombre</label>
+
+        <input type="radio" name="genero" id="mujer" value="mujer">
+        <label for="mujer">Mujer</label>
+    </div>
+
+    <div> 
+        SELECT
+        <Select>
+            <option value="mujer">Mujer</option>
+            <option value="hombre">Hombre</option>
+            <option value="otros">Otros</option>
+        </Select>
+    </div>
+
+    <div> <!--Colocar un label para todos es preferible-->
+        <label for="checkbox">
+            <label>
+            <input type="checkbox"> Mayor de edad </label>
+            </label>
+            <label>
+            <input type="checkbox"> Menor de edad </div>
+            </label>
+            <label>
+            <input type="checkbox"> Casado </input>
+            </label>
+            <label>
+            <input type="checkbox"> Soltero </input>
+            </label>
+        </label>
+    </div>
+
+    <div>
+        Numero:
+        <input type="number">
+    </div>
+
+    <div>
+        Busqueda:
+        <input type="search" name="buscar">
+        <button>Buscar</button>
+    </div>
+
+    <div>
+        Reset:
+        <input type="reset" value="limpiar formulario">
+    </div>
+
+    <div>
+        Telefono:
+        <input type="tel" name="telefono" value="telefono">
+    </div>
+
+    <div>
+        Hora:
+        <input type="time">
+    </div>
+
+    <div>
+        Mes:
+        <input type="month">
+    </div>
+
+    <div>
+        Sitio Web:
+        <input type="url">
+    </div>
+
+    <div>
+        Barra de Progreso:
+        <progress max="100" value="45"></progress>
+    </div>
+
+    <div>
+        Metter:
+        <metter max="100" value="45"></metter>
+    </div>
+
+    <div> <!--Doy 2 click-->
+        Lista de datos:
+        <input list="frutas" name="fruta">
+        <datalist id="frutas">
+            <option value="manzana"></option>
+            <option value="uva"></option>
+            <option value="fresa"></option>
+            <option value="kiwi"></option>
+        </datalist>
+    </div>
+
+    </fieldset>
+
+    <!--FORMULARIO DE VICTOR ROBLES-->
+
+    <h2>VALIDACION</h2>
+    <form action="">
+        <input type="text" required minlength="5" maxlength="15" pattern="[A-Za-z ]"> <!--es decir meter un tanto de caracteres-->
+        <!--Los pattern me sirve para indicar que solo debo meter letras mayuscula y minusculas y un espacio entre medias con el espacio-->
+        <input type="number" required max="20" min="5"> <!--es decir que solo ese rango de numeros vale-->
+        <input type="submit" value="enviar"> 
+    </form>
+
+    <!--MAS ETIQUETAS-->
+    <h3>MAS Etiquetas</h3> 
+    <!--Escribo como deseo y se mostrara en la pagina lo que escribi-->
+    <pre>
+        Hola que tal               Soy
+                         CESAR
+    </pre>
+    <h3>Abreviatura</h3>
+    <p>la <abbr title="Worl Wide Web">WWW</abbr> es el mejor espacio para aprender </p> 
+    <h3>Cambiar el sentido de las letras</h3>
+    <bdo dir="rtl">Hola que tal</bdo>
+    <h3>Correo</h3>
+    <a href="mailto:cesar.palacios@gmail.com">enviame un email</a>
+    <h3>Especie de citas</h3>
+    <q>hola que tal</q>
+
+    <!--Etiqueta Audio-->
+    <p>Este es el sonido</p>
+    <audio controls loop>
+        <source src="./media/audio.mp3" type="audio/mp3">
+        <source src="./media/audio.ogg" type="audio/ogg; codec=opus">
+        <p>Lo sentimos tu navegador no soporta los audios</p>
+    </audio>
+
+    <br>
+    
+    <!--iFRame-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3pw9yG67iUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <iframe src="https://www.linuxtoday.com/" frameborder="0"></iframe>
+
+    <!--Contenedores, bloque-->
+    <div>soy cesar palacios</div>
+    <div>soy cesar palacios</div>
+    <div>soy cesar palacios</div>
+    <!--en linea es la tag span-->
+    <span>soy cesar palacios</span>
+    <span>soy cesar palacios</span>
+    <span>soy cesar palacios</span>
+    <div>
+        <div>cesar en ingles es <span lang="en">ceasar</span></div>
+    </div>    
+    <!--para esto me funcionan este tipo de etiqueta en bloque tanto span como div
+    pero la diferencia es que span lo hace en la misma linea no en la siguiente
+    -->
+
+    <!--Atributos Globales-->
+    <p id="parrafo1">no hay nadie </p>
+    <p class="muchos">Unidos somos mas</p>
+    <p contenteditable="true">puedes editar el contenido</p>
+    <p lang="es">Esto esta escrito en spanish</p>
+
+    <!--Roles de ARIA para Accesibilidad -->
+    <div aria-label="H2O">
+        <div aria-hidden="true">
+            <span>H</span>
+            <span>2</span>
+            <span>O</span>
+        </div>
+    </div>
+
+    <!--Superindice y Subindice-->
+    <p>CO <sub>2</sub> </p> <!--Coloca el 2 abajo-->
+    <p>N <sup>2</sup></p> <!--Coloca el 2 arriba-->
+
+    <!--CITAS-->
+    <blockquote>
+        <p>Ser mediocre es normal en las sociedades</p>
+        <cite>Cesar Palacios Arteaga</cite>
+    </blockquote>
+
+    <!--TABLAS-->
+    <table>
+        <tr>                   <!--Se lo siempre el primero para titulos-->
+            <th>Tech</th>
+            <th>Languages</th>              
+            <th>Space</th>
+        </tr>
+        <tr>
+            <td>HTML5</td>
+            <td>Estructura</td>
+            <td><img src="./img/html.svg" alt="imagen1" width="100" height="100"></td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Estilos</td>
+            <td><img src="./img/pi.gif" alt="CSS" width="100" height="100"></td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Interactividad</td>
+            <td><img src="./img/arches-300.jpg" alt="javascript" width="100" height="100"></td>
+        </tr>
+    </table>
+    <!--Se usa esta tabla con datos tabulares-->
+
+    <p> Cesar Palacios Arteaga dijo:
+        <q>Ser libre es amarse uno mismo</q>
+    </p>
+
+    <!--FECHAS Y TIEMPO nos permite que estas etiquetas y atributos le permitan ser leidos por el navegador-->
+    <p> Nos vemos el Sabado
+        <time datetime="2024-04-20">Sabado</time>
+        a las
+        <time datetime="15:56:00.5-08:00">4:20</time>
+    </p>
+    <p>
+        <time datetime="2024-0420 10:00-0800"></time>
+    </p> 
+
+    <!--VINCULOS-->
+    <a href="https://www.google.com">IR al BLOGGER</a>
+
+    <!--RUTAS-->
+    <p><a href="../index.html">Ir a la pagina principal </a></p>
+    <!--Vinculo relativo cunado pones la barra / y una direccion antes de esa
+    ..cuando carpeta padre un solo punto la carpeta presente-->
+    <p><a href="http://127.0.0.1:500/index.html"></a></p>
+    <!--Vinculo absoluto es cuando incluye la direccion completa es decir la direccion para ir a un lugar-->
+
+    <!--Que van alli en la equite article las partes de un FORO y un BLOG-->
+    <article>
+        <header>
+            <h2>My name is  ceasr</h2>
+            <h3>My love is Joyce</h3>
+        </header>
+    </article>
+
+    <!--BARRAS DE NAVEGACION si le coloco / me llevara a pagina principal-->
+    <nav role="navigation" aria-label="menu principal">
+        <a href="/">INICIO</a>
+        <a href="/">PRODUCTOS </a>
+        <a href="/">QUIENES SOMOS</a>
+        <a href="/">CONTACTO</a>
+        <a href="#pie_pagina">Pie de pagina</a> <!--ANCLA-->
+    </nav>
+
+    <!--ANCLAS-->
+    <div>
+        <p>CESAR Palacios Arteaga is the future Software Engineer</p>
+    </div>
+
+    <!--FOOTER-->
+    <footer id="pie_pagina"> <!--ANCLA-->
+        <a href="/">home</a>
+        <a href="/">Blog</a>
+        <a href="/">contacto</a>
+        curso de cesar palacios
+        <a href=""></a>
+    </footer>
+
+    <!--IMAGENES-->
+    <Body>
+        <img src="./img/linux-kernel.jpg" alt="linux-kernel">
+        <br>
+        <img src="./img/html.svg" alt="HTML" width="100">
+        <br>
+        <img src="./img/pi.gif" alt="PIG" width="100">
+        <br>
+    </Body>
+
+    <!--TAMANO-->
+    <img src="https://i.blogs.es/cc24bb/cinnamon/1366_2000.png" alt="linux" title="linux mint" width="400" height="400">
+    <br>
+    <img src="./img/arches-300.jpg" alt="arches" height="100" srcset="./arches-600.jpg 2x, ./arches-1200.jpg x3">
+    <!--srcset me coloca la imagen de acuerdo a la resoluciuon que mas convenga al nagevador y asi pueda adaptase al dispostivo del usuario-->
+
+    <!--AYUDA a la semántica para los buscadores-->
+    <figure>
+        <img src="./img/html.svg" alt="HTML5" height="100" width="100">
+        <figcaption>Este es el logo de HTML5</figcaption>
+    </figure>
+
+    <!--Optimizado para longuitiud y tamno de pantalla-->
+    <picture>
+        <source media="(min-width:1200px)" srcset="./arches-1200.jpg">
+        <source media="(min-width:600px)" srcset="./arches-600.jpg">
+        <img src="./img/html.svg" alt="HTML5" width="600">
+    </picture>
+    
+    <!--DETALLES-->
+    <details>
+        <summary> DETALLES </summary>
+        <p>hhhjshdjhjshdjhsjhdjshdjhsjdh</p>
+    </details>
+
+    <aside> Es el mejor curso de linuxOS </aside>
+
+    <figure>
+        <img src="/WEB_Project/WEB_CFTEST/img/linux.png" alt="Linux">
+        <figcaption> la mejor wallpaper de Linux </figcaption>
+    </figure>
+
+    <video id="video" width="600" height="600" poster="./img/images.jpg"/>
+        <source src="video/deustch.mp4">
+    </video>
+
+    <button id="playButton">Play</button>
+    <button id="pauseButton">Pause</button>
+    <button id="stopButton">Stop</button>
+    <button id="backwardsButton">&lt;&lt;</button>
+    <button id="forwardButton">&gt;&gt;</button>
+    <button id="volumeUpButton">+</button>
+    <button id="volumeDownButton">-</button>
+
+    <script type="text/javascript">
+        var video = document.getElementById("video");
+
+        console.log(video.muted);
+
+
+        var playButton = document.getElementById("playButton");
+        var pauseButton = document.getElementById("pauseButton");
+        var stopButton = document.getElementById("stopButton");
+
+        var backwardsButton = document.getElementById("backwardsButton");
+        var forwardButton = document.getElementById("forwardButton");
+
+        var volumeDownButton = document.getElementById("volumeDownButton");
+        var volumeUpButton = document.getElementById("volumeUpButton");
+
+
+        
+        playButton.addEventListener('click',function(){
+            video.play();
+        });
+
+        pauseButton.addEventListener('click',function(){
+            video.pause();
+        });
+
+        stopButton.addEventListener('click',function(){
+            video.stop();
+        });    
+
+        backwardsButton.addEventListener('click',function(){
+            video.currentTime -= 1;
+        });   
+
+        forwardButton.addEventListener('click',function(){
+            video.currentTime += 1;
+        });
+
+        video.addEventListener("play", function(){
+            console.log("Reproducir");
+        });
+
+        video.addEventListener("timeupdate",function(){
+            console.log(video.currentTime);
+        });
+
+        volumeDownButton.addEventListener('click',function(){
+            if(video.volume >= 0.1) video.volume -= 0.1;
+        });   
+
+        volumeUpButton.addEventListener('click',function(){
+            if(video.volume <= 0.9) video.volume += 0.1;
+        });
+        
+    </script>
+
+    <!--Las etiquetas semánticas ayudan a definir 
+        la estructura del documento y permiten que las páginas web sean 
+        mejor indexadas por los buscadores-->
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+body {
+    background: greenyellow;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+em {
+    font-style: italic;
+}

@@ -1,0 +1,4 @@
+/*
+Cuando trabajas con objetos utlizas una palabra reservada llamda THIS que 
+se refiere al contexto de donde la utilizas  
+*/

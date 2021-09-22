@@ -1,0 +1,10 @@
+body {
+  background-color: #ccc;
+}
+h1 {
+  font-family: sans-serif, helvetica, Arial;
+  color: red;
+}
+p {
+  color: blue;
+}

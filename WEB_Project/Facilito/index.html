@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">LOGO</a>
+
+        <ul class="nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Inicio </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mapa">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stripe">Menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="acercade.html">Acerca de</a>
+          </li>
+        </ul>
+      </nav>
+      <div
+        class="cover d-flex justify-content-center align-items-center flex-column p-5"
+      >
+        <h1>
+          FacilitoCoffe
+        </h1>
+
+        <p>
+          El mejor café de la ciudad
+        </p>
+        <button class="btn btn-primary">
+          Conoce más
+        </button>
+      </div>
+    </header>
+
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                title="Planta naciendo de la tierra"
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/0aa05f29-d339-4900-91f7-dc58463e664e%2Frsz_roman-synkevych-fjj7lvpcxre-unsplash.jpg?v=1573019558675)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Cultivo ecológico responsable</h5>
+                <p class="card-text">
+                  Trabajamos con caficultores responsables que usan tratamientos
+                  ecológicos
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                title="Vista área de tractor sobre un campo"
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/0aa05f29-d339-4900-91f7-dc58463e664e%2Frsz_2bence-balla-schottner-b1fs5jqrslo-unsplash.jpg?v=1573019968449)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Comercio justo</h5>
+                <p class="card-text">
+                  Adquirir café en FacilitoCoffee significa que tu dinero va
+                  directamente y de manera responsable a los caficultores
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                title="Taza de café con granos de café a un lado"
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/0aa05f29-d339-4900-91f7-dc58463e664e%2Frsz_mike-kenneally-tnaloizhqvm-unsplash.jpg?v=1573019824613)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Pasión por el café</h5>
+                <p class="card-text">
+                  Nos apasiona el café, por lo que siempre trabajamos por
+                  servirte café de calidad.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-5">
+            <img
+              src="https://cdn.glitch.com/0aa05f29-d339-4900-91f7-dc58463e664e%2FCoffeeDoddle.svg?v=1573102495086"
+              alt="Una persona ilustrada abrazando una taza de café derramándose"
+            />
+          </div>
+
+          <div class="col-12 col-sm-6">
+            <h3>
+              ¡Inicia tu día con una taza de café!
+            </h3>
+            <p>
+              Ordena tu bolsa de café a domicilio o busca tu FacilitoCoffe más
+              cercano
+            </p>
+            <a href="#mapa"> Ir al mapa </a>
+          </div>
+        </div>
+        <form action="">
+          <label for="email">Correo electrónico</label>
+          <div class="d-flex">
+            <div class="flex-fill mr-2">
+              <input type="email" id="email" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section>
+      <!-- TIRA DE PRODUCTOS -->
+      <div class="container mt-5 mb-5" id="stripe">
+        <div class="product-stripe">
+          <div class="stripe-container">
+            <div class="card">
+              <div
+                title="Taza de espresso"
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/0aa05f29-d339-4900-91f7-dc58463e664e%2Fac70a784-f306-44db-b127-16312ddd2fb7_preston-goff-mkvfFLKPJqw-unsplash.jpg?v=1573102995490)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Espresso</h5>
+                <span class="badge badge-info">$2USD</span>
+              </div>
+            </div>
+            <div class="card">
+              <div
+                title="Frappe"
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/0aa05f29-d339-4900-91f7-dc58463e664e%2Fac70a784-f306-44db-b127-16312ddd2fb7_thomas-vimare-7ZkoxdZLrog-unsplash.jpg?v=1573102996235)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Frappé</h5>
+                <span class="badge badge-info">$3USD</span>
+              </div>
+            </div>
+            <div class="card">
+              <div
+                title="Taza de capuccino"
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/0aa05f29-d339-4900-91f7-dc58463e664e%2Fac70a784-f306-44db-b127-16312ddd2fb7_pablo-merchan-montes-_Tw4vCs9C-8-unsplash.jpg?v=1573102996346)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Capuccino</h5>
+                <span class="badge badge-info">$2.5USD</span>
+              </div>
+            </div>
+            <div class="card">
+              <div
+                title="Taza de café americano"
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/0aa05f29-d339-4900-91f7-dc58463e664e%2Fac70a784-f306-44db-b127-16312ddd2fb7_gerson-cifuentes-JNhaaPEz3FY-unsplash.jpg?v=1573102997515)"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Americano</h5>
+                <span class="badge badge-info">$2USD</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5 mb-5" id="mapa">
+        <h4>
+          Aquí nos vemos:
+        </h4>
+        <p>
+          Paseo de la Reforma y Eje 2 PTE, Juárez, Cuauhtémoc, Ciudad de México, CDMX
+        </p>
+        <div class="responsive-iframe">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927.7149731528353!2d-99.16815754009053!3d19.427025525599923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sThe%20Angel%20of%20Independence!5e0!3m2!1sen!2smx!4v1573103695011!5m2!1sen!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+
+      </div>
+    </section>
+  </body>
+</html>

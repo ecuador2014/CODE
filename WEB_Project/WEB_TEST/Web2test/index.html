@@ -1,0 +1,137 @@
+<!DOCTYPE html> <!--etiqueta del HTML 5--> 
+<html lang="es"> <!-- aqui va ir toda la pagina web con los atributos-->
+<head> <!-- van a ir datos no visibles y metadatos, pero si el titulo-->
+    <title>Mi primera web con JS</title> <!--El nombre de la pagina en la pestana-->
+</head>
+<body> <!--Body lo que se va a mostrar de la pagina web-->
+    <h1>PROGRAMMING WITH JS</h1> <!--las h1 a h12 depende el numero su size-->
+    <h2>WITH GOD ALL THING CAN DO IT</h2>
+
+    <p>
+        orem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Proin efficitur pellentesque dapibus. Nullam at sem velit. 
+        Pellentesque elit turpis, dignissim ac velit ultrices, placerat egestas nunc. 
+        Sed euismod mattis vulputate. Morbi aliquet turpis ut nisl vehicula sodales. 
+        Pellentesque accumsan, nunc non tincidunt ultricies, nibh mi egestas enim, mollis semper erat massa convallis leo. 
+        Ut vel pulvinar elit. In bibendum ultrices placerat. Morbi orci nulla, mollis id turpis in, fermentum tempor risus. 
+        Duis egestas libero nunc, non pharetra massa tempor sit amet. In blandit ligula a nibh mattis, non vestibulum metus semper. 
+    </p>
+
+    <p>
+        orem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Proin efficitur pellentesque dapibus. Nullam at sem velit. 
+        Pellentesque elit turpis, dignissim ac velit ultrices, placerat egestas nunc. 
+        Sed euismod mattis vulputate. Morbi aliquet turpis ut nisl vehicula sodales. 
+        Pellentesque accumsan, nunc non tincidunt ultricies, nibh mi egestas enim, mollis semper erat massa convallis leo. 
+        Ut vel pulvinar elit. In bibendum ultrices placerat. Morbi orci nulla, mollis id turpis in, fermentum tempor risus. 
+        Duis egestas libero nunc, non pharetra massa tempor sit amet. In blandit ligula a nibh mattis, non vestibulum metus semper. 
+    </p>
+
+    <p> <!--parrafo-->
+        <blockquote>
+        orem ipsum dolor sit amet, consectetur adipiscing elit </blockquote> <!-- para citas-->. 
+        Proin efficitur pellentesque dapibus. Nullam at sem velit. 
+        Pellentesque elit turpis, dignissim ac velit ultrices, placerat egestas nunc. 
+        Sed euismod mattis vulputate. Morbi aliquet turpis ut nisl vehicula sodales. 
+        Pellentesque accumsan, nunc non tincidunt ultricies, nibh mi egestas enim, mollis semper erat massa convallis leo. 
+        Ut vel pulvinar elit. In bibendum ultrices placerat. Morbi orci nulla, mollis id turpis in, fermentum tempor risus. 
+        <br> <br> <!--saltos de lineas--> Duis egestas libero nunc, non pharetra massa tempor sit amet. <hr> <!--salto de linea con una linea --> blandit ligula a nibh mattis, non vestibulum metus semper. 
+    </p>
+
+    <hr> 
+    <h3>TEXTO DE PRUEBA</h3>
+    <p>
+        orem ipsum dolor sit amet, <span id= "resaltado" class= "rojo"></span> <!--con esta etiqueta puedo trabajarla con CSS--> adipiscing elit. 
+        Proin efficitur pellentesque dapibus. Nullam at sem velit. 
+        <strong> elit turpis </strong> <!--text en negrita-->, dignissim ac velit ultrices, placerat egestas nunc. 
+        Sed euismod mattis vulputate. Morbi <em>aliquet turpis </em> <!--texton en cursiva--> ut nisl vehicula <i>sodales</i> <!--texto en cursiva tambien-->. 
+    </p>
+
+    <h3>LISTA DE FRUTAS</h3>
+
+    <ol> <!--crear listas ordenadas-->
+        <li>MANZANA</li> <!--crea elementos-->
+        <li>PERA</li>
+            <ul> <!--se puedev crear sublistas-->
+                <li>verde</li>
+                <li>roja</li>
+            </ul>
+        <li>UVA</li>
+        <li>NARANJA</li>
+        <li>TORONJA</li>
+    </ol>
+
+    <h3>LISTA DE SOFTWARE</h3>
+    <ul> <!--crea lista desordenadas-->
+        <li>APPLE</li>
+        <li>MICROSOFT</li>
+        <li>LINUX</li>
+    </ul>
+
+    <hr>
+
+        <h2>IMAGENES</h2>
+        <img src="pictures/gato.jpg" width="255px" height="155px" alt="imagen de agus" title="foto de agus"> 
+        <!--INSERTAR IMAGENES Y X ENDE ESTA ETIQUETA TIENE ATRIBUTOS-->
+    
+    <hr>
+
+    <h3>TABLAS</h3> <!--Crear tablas-->
+        <table border="1"> <!--border el borde de la tabla-->
+            <tr> <!--crear filas-->
+                <th>NOMBRE</th> <!--th para negriar las palabras-->
+                <th colspan="2">PAIS</th> <!--colspan para ampliar las columnas-->
+                <th>CUIDAD</th>
+            </tr>
+            <tr>
+                <td>CESAR</td> <!--td para crear columnas-->
+                <td>ECUADOR </td>
+                <td>PORTOVIEJO</td>
+            </tr>
+            <tr>
+                <td>JUAN</td>
+                <td>USA</td>
+                <td>MIAMI</td>
+            </tr>
+        </table>
+
+    <h3>FORMULARIO</h3> <!--Diferentes tipos de formulario-->
+        <form>
+
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Writing your name"> 
+                <!--placeholder desaparecen las letras dentro de la caja cuando escribes tu nombre-->
+            </p>
+            
+            <p>
+                <label for="descripcion">descripcion</label>
+                <textarea name="descripcion"></textarea>
+                <!--textarea es una manera de crear la caja de comentarios-->
+            </p>
+
+            <p>
+                <input type="radio" name="genero" value="hombre">Hombre<br>
+                <input type="radio" name="genero" value="mujer">Mujer<br>
+                <input type="radio" name="genero" value="nada">Nada<br> 
+            </p>    
+
+            <p>
+                <select name="generos"> <!--formulario mulieleccion-->
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="nada">Nada</option>
+                </select>
+            </p>
+
+            <input type="submit" value="enviar formulario"> <!--para enviar los datos del formulario-->
+
+        </form>
+
+
+</body>
+
+
+
+
+</html>

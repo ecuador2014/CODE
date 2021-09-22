@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(214, 29, 29);
+    /*
+    background-image: url("pictures/imagen2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    background-attachment: fixed;
+    background-position: left bottom;
+    */
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 25px;
+    /*
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    */
+}
+
+#caja{
+    border: 5px solid black;
+    padding: 40px;
+    background-color: rgb(53, 72, 184);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    vertical-align: top;
+}
+
+h2{
+    color:black;
+    background: cornsilk;
+    background-image: url("pictures/imagen3.jpeg");
+    border: 5px solid red;
+}
+
+
+
+

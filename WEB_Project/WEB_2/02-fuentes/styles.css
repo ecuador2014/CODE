@@ -1,0 +1,35 @@
+@font-face{
+    font-family: OswaldoCustomFont;
+    src: url(FONTS/Oswald/Oswald-VariableFont_wght.ttf);
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 45px; 
+
+    /*colors*/
+    /*colores del sistema*/
+    color: DarkBlue;
+    
+    /*colores hexadecimales*/
+    color: #800080;
+    /*colores RGB*/
+    color:rgb(8, 241, 27) !important;
+    /*colores RGBA*/
+    color: rgba(2, 66, 12, 0.9);
+
+}
+
+h3{
+    font-family: OswaldoCustomFont, 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: lighter;
+    color: LawnGreen;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bold;
+}

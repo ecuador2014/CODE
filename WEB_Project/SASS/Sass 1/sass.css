@@ -1,0 +1,49 @@
+body {
+  background-color: #ccc;
+}
+h1 {
+  font-family: sans-serif, helvetica, Arial;
+  color: red;
+}
+p {
+  color: blue;
+}
+.caja {
+  border: 1px solid black;
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+.caja h1 {
+  color: blue;
+}
+.caja p {
+  color: green;
+}
+.caja .info {
+  font-size: 12px;
+}
+.caja .info .autor {
+  font-size: 15px;
+  color: orange;
+}
+.caja {
+  border: 10px solid red;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+}
+.listado {
+  border: 5px solid green;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #ff0;
+}
+.alert {
+  border: 1px solid gray;
+  background: grey;
+  color: white;
+  padding: 10px;
+  width: 70%;
+  margin: 20px auto;
+}
