@@ -1,0 +1,13 @@
+body{
+  background-color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.ficha{
+  border: 2pxpx solid black;
+  background: beige;
+  margin: 15px auto;
+  padding : 15px;
+}
