@@ -1,7 +1,0 @@
-/*JavaScript tiene un problema no puede trabajar con numeros muy grandes y 
-se corta a cierta cantidad de numeros 
-Infinity es una palabra reservada
-NaN es un valor especial es un valor reservado que significa no es un numero 
-Hay una libreria global llamada MATH. se puede ver diferentes valores la caja azul propiedades caja grande
-la caja purpura metodos caja chica
-*/

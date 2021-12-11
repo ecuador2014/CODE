@@ -1,0 +1,21 @@
+let abecedario = "bcdefghijklmnopqrstuvwxyz";
+console.log(abecedario.length);
+console.log(abecedario.indexOf("b"));
+console.log(abecedario.indexOf("z"));
+console.log(abecedario[abecedario.length - 1]);
+//console.log(abecedario.sort());
+console.log(abecedario.split(""));
+console.log(abecedario.split("").reverse());
+console.log(abecedario.split("").reverse().join(""));
+console.log(abecedario.includes("b"));
+abecedario.push("a");
+console.log(abecedario);
+abecedario.pop();
+console.log(abecedario);
+abecedario.shift();
+console.log(abecedario);
+abecedario.unshift("a");
+console.log(abecedario);
+abecedario.splice(0, 1);
+console.log(abecedario);
+

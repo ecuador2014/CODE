@@ -19,6 +19,7 @@
 		1B185945271F0AA5006000F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B185947271F0AA7006000F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B18594A271F0AA7006000F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B185951271F0B1A006000F6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		1B185937271F0AA5006000F6 = {
 			isa = PBXGroup;
 			children = (
+				1B185951271F0B1A006000F6 /* MyPlayground.playground */,
 				1B185942271F0AA5006000F6 /* test1 */,
 				1B185941271F0AA5006000F6 /* Products */,
 			);
